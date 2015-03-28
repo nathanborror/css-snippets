@@ -23,9 +23,21 @@
   'Width':
     'prefix': 'w'
     'body': 'width: $1;$0'
+  'Max Width':
+    'prefix': 'maxw'
+    'body': 'max-width: $1;$0'
+  'Min Width':
+    'prefix': 'minw'
+    'body': 'min-width: $1;$0'
   'Height':
     'prefix': 'h'
     'body': 'height: $1;$0'
+  'Max Height':
+    'prefix': 'maxh'
+    'body': 'max-height: $1;$0'
+  'Min Height':
+    'prefix': 'minh'
+    'body': 'min-height: $1;$0'
 
   'Margin':
     'prefix': 'm'
@@ -55,10 +67,32 @@
 
   'Border':
     'prefix': 'bd'
-    'body': 'border: ${1:1px} solid ${2:rgba(0,0,0,.1)};$0'
+    'body': 'border: ${1:1px} solid rgba($2);$0'
   'Box Shadow':
     'prefix': 'bs'
-    'body': 'box-shadow: ${1:0} ${2:0} ${3:0} ${4:0} ${5:rgba(0,0,0,.1)};$0'
+    'body': 'box-shadow: ${1:0} ${2:0} ${3:0} ${4:0} rgba($5);$0'
+  'Border Radius':
+    'prefix': 'br'
+    'body': 'border-radius: $1;$0'
+
+  'Font Family':
+    'prefix': 'ff'
+    'body': 'font-family: ${1:"HelveticaNeue",helvetica,arial,sans-serif};$0'
+  'Font Style':
+    'prefix': 'fs'
+    'body': 'font-size: $1;$0'
+  'Font Size':
+    'prefix': 'fz'
+    'body': 'font-size: $1;$0'
+  'Font Weight':
+    'prefix': 'fw'
+    'body': 'font-weight: $1;$0'
+  'Line Height':
+    'prefix': 'lh'
+    'body': 'line-height: $1;$0'
+  'Color':
+    'prefix': 'c'
+    'body': 'color: rgba($1);$0'
 
   'Text Align':
     'prefix': 'ta'
@@ -73,3 +107,14 @@
   'Overflow':
     'prefix': 'o'
     'body': 'overflow: ${1:hidden};$0'
+  'Whitespace':
+    'prefix': 'ws'
+    'body': 'white-space: ${1:nowrap};$0'
+
+  'Cursor':
+    'prefix': 'cur'
+    'body': 'cursor: ${1:default};$0'
+
+  'Z Index':
+    'prefix': 'z'
+    'body': 'z-index: $1;$0'
