@@ -68,6 +68,18 @@
   'Border':
     'prefix': 'bd'
     'body': 'border: ${1:1px} solid rgba($2);$0'
+  'Border Bottom':
+    'prefix': 'bdb'
+    'body': 'border-bottom: ${1:1px} solid rgba($2);$0'
+  'Border Top':
+    'prefix': 'bdt'
+    'body': 'border-top: ${1:1px} solid rgba($2);$0'
+  'Border Left':
+    'prefix': 'bdl'
+    'body': 'border-left: ${1:1px} solid rgba($2);$0'
+  'Border Right':
+    'prefix': 'bdr'
+    'body': 'border-right: ${1:1px} solid rgba($2);$0'
   'Box Shadow':
     'prefix': 'bs'
     'body': 'box-shadow: ${1:0} ${2:0} ${3:0} ${4:0} rgba($5);$0'
