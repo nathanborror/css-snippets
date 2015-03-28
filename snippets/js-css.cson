@@ -1,0 +1,120 @@
+'.source.js':
+  'Position':
+    'prefix': 'pos'
+    'body': "position: '$1',$0"
+
+  'Display':
+    'prefix': 'd'
+    'body': "display: '${1:block}',$0"
+
+  'Top':
+    'prefix': 't'
+    'body': "top: '$1',$0"
+  'Left':
+    'prefix': 'l'
+    'body': "left: '$1',$0"
+  'Right':
+    'prefix': 'r'
+    'body': "right: '$1',$0"
+  'Bottom':
+    'prefix': 'b'
+    'body': "bottom: '$1',$0"
+
+  'Width':
+    'prefix': 'w'
+    'body': "width: '$1',$0"
+  'Max Width':
+    'prefix': 'maxw'
+    'body': "maxWidth: '$1',$0"
+  'Min Width':
+    'prefix': 'minw'
+    'body': "minWidth: '$1',$0"
+  'Height':
+    'prefix': 'h'
+    'body': "height: '$1',$0"
+  'Max Height':
+    'prefix': 'maxh'
+    'body': "maxHeight: '$1',$0"
+  'Min Height':
+    'prefix': 'minh'
+    'body': "minHeight: '$1',$0"
+
+  'Margin':
+    'prefix': 'm'
+    'body': "margin: '$1',$0"
+  'Padding':
+    'prefix': 'p'
+    'body': "padding: '$1',$0"
+
+  'Background':
+    'prefix': 'bg'
+    'body': "background: 'url($1)',$0"
+  'Background Repeat':
+    'prefix': 'bgr'
+    'body': "backgroundRepeat: '${1:no-repeat}',$0"
+  'Background Position':
+    'prefix': 'bgp'
+    'body': "backgroundPosition: '$1',$0"
+  'Background Size':
+    'prefix': 'bgs'
+    'body': "backgroundSize: '$1',$0"
+  'Background Image':
+    'prefix': 'bgi'
+    'body': "backgroundImage: 'url($1)',$0"
+  'Background Color':
+    'prefix': 'bgc'
+    'body': "backgroundColor: 'rgba($1)',$0"
+
+  'Border':
+    'prefix': 'bd'
+    'body': "border: '${1:1px} solid rgba($2)',$0"
+  'Box Shadow':
+    'prefix': 'bs'
+    'body': "boxShadow: '${1:0} ${2:0} ${3:0} ${4:0} rgba($5)',$0"
+  'Border Radius':
+    'prefix': 'br'
+    'body': "borderRadius: '$1',$0"
+
+  'Font Family':
+    'prefix': 'ff'
+    'body': "fontFamily: '${1:\"HelveticaNeue\",helvetica,arial,sans-serif}',$0"
+  'Font Style':
+    'prefix': 'fs'
+    'body': "fontSize: '$1',$0"
+  'Font Size':
+    'prefix': 'fz'
+    'body': "fontSize: '$1',$0"
+  'Font Weight':
+    'prefix': 'fw'
+    'body': "fontWeight: '$1',$0"
+  'Line Height':
+    'prefix': 'lh'
+    'body': "lineHeight: '$1',$0"
+  'Color':
+    'prefix': 'c'
+    'body': "color: 'rgba($1)',$0"
+
+  'Text Align':
+    'prefix': 'ta'
+    'body': "textAlign: '$1',$0"
+  'Text Decoration':
+    'prefix': 'td'
+    'body': "textDecoration: '$1',$0"
+  'Text Overflow':
+    'prefix': 'to'
+    'body': "textOverflow: '$1',$0"
+
+  'Overflow':
+    'prefix': 'o'
+    'body': "overflow: '${1:hidden}',$0"
+  'Whitespace':
+    'prefix': 'ws'
+    'body': "whiteSpace: '${1:nowrap}',$0"
+
+  'Cursor':
+    'prefix': 'cur'
+    'body': "cursor: '${1:default}',$0"
+
+  'Z Index':
+    'prefix': 'z'
+    'body': "zIndex: '$1',$0"
