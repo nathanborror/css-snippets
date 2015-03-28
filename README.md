@@ -1,3 +1,3 @@
-# CSS-Snippets package
+# Lepton package
 
-Helpful CSS snippets to speed up workflow.
+Helpful snippets to speed up workflow.
