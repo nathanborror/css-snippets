@@ -1,0 +1,41 @@
+'.source.js':
+  'React Component':
+    'prefix': 'rc'
+    'body': """
+      class $1 extends React.Components {
+        constructor(props) {
+          super(props)$2
+        }
+
+        render() {
+          return ($0)
+        }
+      }
+    """
+
+  'Component Did Mount':
+    'prefix': 'rd'
+    'body': """
+      componentDidMount() {
+        $0
+      }
+    """
+  'Component Will Mount':
+    'prefix': 'rw'
+    'body': """
+      componentWillMount() {
+        $0
+      }
+    """
+
+  'Handler':
+    'prefix': 'rh'
+    'body': """
+      handle$1($2) {
+        $0
+      }
+    """
+
+  'React Render':
+    'prefix': 'rr'
+    'body': 'React.render(React.createElement(${1:Main}, null), ${2:document.body});$0'
