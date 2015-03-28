@@ -1,3 +1,3 @@
 # Lepton package
 
-Helpful snippets to speed up workflow.
+Snippets for speeding up workflows around writing CSS, Javascript CSS, and React.
