@@ -39,3 +39,13 @@
   'React Render':
     'prefix': 'rr'
     'body': 'React.render(React.createElement(${1:Main}, null), ${2:document.body});$0'
+
+  'DIV':
+    'prefix': 'div'
+    'body': "<div>$0</div>"
+  'SPAN':
+    'prefix': 'span'
+    'body': "<span>$0</span>"
+  'Class Name':
+    'prefix': 'cn'
+    'body': "className='$0'"
