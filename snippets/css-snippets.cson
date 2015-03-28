@@ -1,0 +1,75 @@
+'.source.css':
+  'Position':
+    'prefix': 'pos'
+    'body': 'position: ${1:absolute};$0'
+
+  'Display':
+    'prefix': 'd'
+    'body': 'display: ${1:block};$0'
+
+  'Top':
+    'prefix': 't'
+    'body': 'top: $1;$0'
+  'Left':
+    'prefix': 'l'
+    'body': 'left: $1;$0'
+  'Right':
+    'prefix': 'r'
+    'body': 'right: $1;$0'
+  'Bottom':
+    'prefix': 'b'
+    'body': 'bottom: $1;$0'
+
+  'Width':
+    'prefix': 'w'
+    'body': 'width: $1;$0'
+  'Height':
+    'prefix': 'h'
+    'body': 'height: $1;$0'
+
+  'Margin':
+    'prefix': 'm'
+    'body': 'margin: $1;$0'
+  'Padding':
+    'prefix': 'p'
+    'body': 'padding: $1;$0'
+
+  'Background':
+    'prefix': 'bg'
+    'body': 'background: url($1);$0'
+  'Background Repeat':
+    'prefix': 'bgr'
+    'body': 'background-repeat: ${1:no-repeat};$0'
+  'Background Position':
+    'prefix': 'bgp'
+    'body': 'background-position: $1;$0'
+  'Background Size':
+    'prefix': 'bgs'
+    'body': 'background-size: $1;$0'
+  'Background Image':
+    'prefix': 'bgi'
+    'body': 'background-image: url($1);$0'
+  'Background Color':
+    'prefix': 'bgc'
+    'body': 'background-color: rgba($1);$0'
+
+  'Border':
+    'prefix': 'bd'
+    'body': 'border: ${1:1px} solid ${2:rgba(0,0,0,.1)};$0'
+  'Box Shadow':
+    'prefix': 'bs'
+    'body': 'box-shadow: ${1:0} ${2:0} ${3:0} ${4:0} ${5:rgba(0,0,0,.1)};$0'
+
+  'Text Align':
+    'prefix': 'ta'
+    'body': 'text-align: $1;$0'
+  'Text Decoration':
+    'prefix': 'td'
+    'body': 'text-decoration: $1;$0'
+  'Text Overflow':
+    'prefix': 'to'
+    'body': 'text-overflow: $1;$0'
+
+  'Overflow':
+    'prefix': 'o'
+    'body': 'overflow: ${1:hidden};$0'
