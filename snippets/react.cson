@@ -42,10 +42,10 @@
 
   'DIV':
     'prefix': 'div'
-    'body': "<div>$0</div>"
+    'body': "<div>$1</div>$0"
   'SPAN':
     'prefix': 'span'
-    'body': "<span>$0</span>"
+    'body': "<span>$1</span>$0"
   'Class Name':
     'prefix': 'cn'
-    'body': "className='$0'"
+    'body': "className='$1'$0"
