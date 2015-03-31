@@ -42,9 +42,34 @@
   'Margin':
     'prefix': 'm'
     'body': "margin: '$1',$0"
+  'Margin Top':
+    'prefix': 'mt'
+    'body': "marginTop: '$1',$0"
+  'Margin Bottom':
+    'prefix': 'mb'
+    'body': "marginBottom: '$1',$0"
+  'Margin Left':
+    'prefix': 'ml'
+    'body': "marginLeft: '$1',$0"
+  'Margin Right':
+    'prefix': 'mr'
+    'body': "marginRight: '$1',$0"
+
   'Padding':
     'prefix': 'p'
     'body': "padding: '$1',$0"
+  'Padding Top':
+    'prefix': 'pt'
+    'body': "paddingTop: '$1',$0"
+  'Padding Bottom':
+    'prefix': 'pb'
+    'body': "paddingBottom: '$1',$0"
+  'Padding Left':
+    'prefix': 'pl'
+    'body': "paddingLeft: '$1',$0"
+  'Padding Right':
+    'prefix': 'pr'
+    'body': "paddingRight: '$1',$0"
 
   'Background':
     'prefix': 'bg'
