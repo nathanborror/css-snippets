@@ -9,67 +9,67 @@
 
   'Top':
     'prefix': 't'
-    'body': "top: '$1',$0"
+    'body': "top: $1,$0"
   'Left':
     'prefix': 'l'
-    'body': "left: '$1',$0"
+    'body': "left: $1,$0"
   'Right':
     'prefix': 'r'
-    'body': "right: '$1',$0"
+    'body': "right: $1,$0"
   'Bottom':
     'prefix': 'b'
-    'body': "bottom: '$1',$0"
+    'body': "bottom: $1,$0"
 
   'Width':
     'prefix': 'w'
-    'body': "width: '$1',$0"
+    'body': "width: $1,$0"
   'Max Width':
     'prefix': 'maxw'
-    'body': "maxWidth: '$1',$0"
+    'body': "maxWidth: $1,$0"
   'Min Width':
     'prefix': 'minw'
-    'body': "minWidth: '$1',$0"
+    'body': "minWidth: $1,$0"
   'Height':
     'prefix': 'h'
-    'body': "height: '$1',$0"
+    'body': "height: $1,$0"
   'Max Height':
     'prefix': 'maxh'
-    'body': "maxHeight: '$1',$0"
+    'body': "maxHeight: $1,$0"
   'Min Height':
     'prefix': 'minh'
-    'body': "minHeight: '$1',$0"
+    'body': "minHeight: $1,$0"
 
   'Margin':
     'prefix': 'm'
-    'body': "margin: '$1',$0"
+    'body': "margin: $1,$0"
   'Margin Top':
     'prefix': 'mt'
-    'body': "marginTop: '$1',$0"
+    'body': "marginTop: $1,$0"
   'Margin Bottom':
     'prefix': 'mb'
-    'body': "marginBottom: '$1',$0"
+    'body': "marginBottom: $1,$0"
   'Margin Left':
     'prefix': 'ml'
-    'body': "marginLeft: '$1',$0"
+    'body': "marginLeft: $1,$0"
   'Margin Right':
     'prefix': 'mr'
-    'body': "marginRight: '$1',$0"
+    'body': "marginRight: $1,$0"
 
   'Padding':
     'prefix': 'p'
-    'body': "padding: '$1',$0"
+    'body': "padding: $1,$0"
   'Padding Top':
     'prefix': 'pt'
-    'body': "paddingTop: '$1',$0"
+    'body': "paddingTop: $1,$0"
   'Padding Bottom':
     'prefix': 'pb'
-    'body': "paddingBottom: '$1',$0"
+    'body': "paddingBottom: $1,$0"
   'Padding Left':
     'prefix': 'pl'
-    'body': "paddingLeft: '$1',$0"
+    'body': "paddingLeft: $1,$0"
   'Padding Right':
     'prefix': 'pr'
-    'body': "paddingRight: '$1',$0"
+    'body': "paddingRight: $1,$0"
 
   'Background':
     'prefix': 'bg'
@@ -110,7 +110,7 @@
     'body': "boxShadow: '${1:0} ${2:0} ${3:0} ${4:0} rgba($5)',$0"
   'Border Radius':
     'prefix': 'br'
-    'body': "borderRadius: '$1',$0"
+    'body': "borderRadius: $1,$0"
 
   'Font Family':
     'prefix': 'ff'
@@ -120,13 +120,13 @@
     'body': "fontSize: '$1',$0"
   'Font Size':
     'prefix': 'fz'
-    'body': "fontSize: '$1',$0"
+    'body': "fontSize: $1,$0"
   'Font Weight':
     'prefix': 'fw'
     'body': "fontWeight: '$1',$0"
   'Line Height':
     'prefix': 'lh'
-    'body': "lineHeight: '$1',$0"
+    'body': "lineHeight: $1,$0"
   'Color':
     'prefix': 'c'
     'body': "color: 'rgba($1)',$0"
@@ -154,4 +154,4 @@
 
   'Z Index':
     'prefix': 'z'
-    'body': "zIndex: '$1',$0"
+    'body': "zIndex: $1,$0"
