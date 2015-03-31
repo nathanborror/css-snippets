@@ -2,7 +2,7 @@
   'React Component':
     'prefix': 'rc'
     'body': """
-      class $1 extends React.Components {
+      class $1 extends React.Component {
         constructor(props) {
           super(props)$2
         }
